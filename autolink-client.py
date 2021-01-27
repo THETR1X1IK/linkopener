@@ -4,7 +4,7 @@ import asyncio
 import webbrowser
 import sys
 
-channel = 'https://discordapp.com/api/webhooks/753652488443265164/l6JBp2tjMIFodBTnNSwGVYHdpUtK5tzjR3ORiZ2dF_hvBOI9cae4RElEGrJ7AnN0u0Bh'
+channel = 'channel url webhook'
 
 client = commands.Bot(command_prefix='*')
 
@@ -31,5 +31,5 @@ async def on_message(message):
 				print(opened)
 
 
-client.run('NjcyNzgxMTg1NzAwNTkzNzAw.XjQeTg.N3lZh4-Gl9HFMJjqv-UXbPVuMhM')
+client.run('bot token')
 
